@@ -1,0 +1,27 @@
+#container {
+  display: flex;
+  margin-top: 25px;
+}
+
+.column {
+  flex: 50%;
+  max-width: 50%;
+   width: 15em;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px;
+  margin: 18px;
+}
+
+#editor {
+  height: 600px;
+  width: 98%;
+}
+#preview {
+  width: 98%;
+  height: 100%;
+}
+
+#preview img {
+  max-width: 50%;
+}
